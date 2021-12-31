@@ -1,3 +1,8 @@
+## 0.1.1
+
+* Support up-to-date dependencies
+* Pass static analysis
+
 ## 0.1.0
 
 * On hover animate the widget.

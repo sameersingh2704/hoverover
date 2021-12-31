@@ -20,7 +20,7 @@ A Flutter package that will give hover effect for Web and Desktop.
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  hoverover: ^0.1.0
+  hoverover: ^0.1.1
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
