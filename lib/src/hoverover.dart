@@ -31,6 +31,7 @@ class _HoverOverState extends State<HoverOver> {
       ..translate(widget.translateXAxis ?? 0.0, widget.translateYAxis ?? 0.0);
     final transform = isHovered ? hovered : Matrix4.identity();
     return MouseRegion(
+      cursor: SystemMouseCursors.click,
       onEnter: (_) => onEntered(true),
       onExit: (_) => onEntered(false),
 
